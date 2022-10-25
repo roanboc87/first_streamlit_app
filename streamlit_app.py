@@ -48,7 +48,7 @@ except URLError as e:
 
 #########################################################################
 
-streamlit.header("The fruit load list contains:")
+streamlit.header("View our fruit list. Add your favorites!")
 
 # Get data from tables
 def get_fruit_load_list():
