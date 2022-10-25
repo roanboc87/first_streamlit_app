@@ -31,7 +31,7 @@ streamlit.dataframe(fruits_to_show)
 # New section to display data from fruitvice API
 streamlit.header("Fruityvice Fruit Advice!")
 
-try
+try:
   fruit_choice = streamlit.text_input('What fruit would you like information about?')
   
   if not fruit_choice:
