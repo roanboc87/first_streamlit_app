@@ -67,4 +67,5 @@ if streamlit.button('Get fruit list'):
   streamlit.dataframe(my_data_rows)
 
 add_my_fruit = streamlit.multiselect("What fruit would you like to add?:", list(my_fruit_list.index))
+streamlit.text("Thanks for adding the fruit")
 my_cur.execute("insert into fruit_load_list values ('from streamlit')")
