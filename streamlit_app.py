@@ -5,7 +5,8 @@ import snowflake.connector
 from urllib.error import URLError
 
 streamlit.title('SnowFlake Hands On Healthy Diner 🥗')
-
+streamlit.text('Code repository: https://github.com/roanboc87/first_streamlit_app/blob/main/streamlit_app.py')
+    
 #########################################################################
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
